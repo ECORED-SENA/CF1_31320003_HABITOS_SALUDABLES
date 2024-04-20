@@ -1,19 +1,12 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Componentes de los alimentos y alimentación saludable',
+    descripcionCurso:
+      'El presente componente formativo aborda los compuestos en alimentos y su rol en el desarrollo humano. Se explora la clasificación de alimentos por nutrientes, los principios de una dieta saludable, la pirámide alimenticia, y se detalla el valor energético de los nutrientes y el gasto energético en reposo. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -31,27 +24,70 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alimentación, nutrición y clasificación de los alimentos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Composición de los alimentos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Carbohidratos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Las proteínas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Las grasas o lípidos',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Las vitaminas',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Los minerales',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Nutrientes presentes en los principales grupos de alimentos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Alimentación saludable',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Dieta moderada',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'La pirámide de la alimentación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'El valor energético de los alimentos',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +138,70 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Alimentación saludable',
+      referencia:
+        'INCMNSZ Educación para la Salud. (2021). <em>Alimentación sana - cerebro sano - INCMNSZ - Educación para la Salud</em> (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vs2U6BvZ4U4',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Carbohidratos',
+      significado:
+        'son macronutrientes que proporcionan energía al cuerpo, especialmente al cerebro y al sistema nervioso. Están compuestos principalmente de carbono, hidrógeno y oxígeno.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Proteínas',
+      significado:
+        'macronutrientes esenciales compuestos de aminoácidos que el cuerpo utiliza para construir y reparar tejidos, producir enzimas y hormonas, y apoyar el sistema inmunológico.',
+    },
+    {
+      termino: 'Grasas o lípidos',
+      significado:
+        'son un tipo de lípido y son macronutrientes importantes que el cuerpo utiliza para energía, aislamiento y protección de órganos vitales. Las grasas también facilitan la absorción de vitaminas solubles en grasa (A, D, E, K).  ',
+    },
+    {
+      termino: 'Vitaminas',
+      significado:
+        'son micronutrientes que el cuerpo necesita en pequeñas cantidades para funcionar adecuadamente y mantener la salud. Son esenciales para procesos como la producción de energía, la función inmune, la coagulación de la sangre y funciones celulares.  ',
+    },
+    {
+      termino: 'Minerales',
+      significado:
+        'son elementos inorgánicos que el cuerpo utiliza para numerosas funciones biológicas, como la construcción de huesos, la regulación del metabolismo y la garantización del funcionamiento adecuado de los nervios y músculos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Hernández, M. y Sastre, A. (1999). Tratado de nutrición. Madrid, España: Díaz de Santos.',
+      link: '',
+    },
+    {
+      referencia: 'Iñarritu, M. (s.f.). Elaboración de una dieta.',
+      link:
+        'http://www.edu.xunta.es/centros/ieschapela/system/files/ELABORACI%C3%93N%20DIETAS_1.pdf ',
+    },
+    {
+      referencia:
+        'Mataix, J. (2002). Nutrición y alimentación humana: Nutrientes y alimentos. Madrid, España: Ergon.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sección de programas de salud de la concejalía de sanidad del ayuntamiento de Valencia. (2009). 2 Guía de nutrición y alimentación saludable: la pirámide de la alimentación.',
+      link:
+        'http://www.valencia.es/ayuntamiento/Sanidad.nsf/0/004DD7F111F0F31DC12575E6003BF9B2/$FILE/piramide_IMPR_reduc.pdf?OpenElement&lang=1 ',
+    },
+    {
+      referencia:
+        'Valero, T., Del Pozo, S., Ruiz, E., Ávila, J. y Varela, G. (s.f.). Guía nutricional de la carne.',
+      link: 'http://www.fedecarne.es/ficheros/swf/pdf/guiaNutricion.pdf ',
+    },
+    {
+      referencia:
+        'Vázquez, C., De Cos, A. y López, C. (2005). Alimentación y nutrición: Manual teórico-práctico. Madrid, España: Díaz de Santos. ',
       link: '',
     },
   ],
