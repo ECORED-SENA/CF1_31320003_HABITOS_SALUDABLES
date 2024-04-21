@@ -47,7 +47,7 @@
 
       .row
         .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row.col-xl-11.m-auto(titulo="Monosacáridos o azúcares simples ")
               p Están formados según el número de carbonos presentes en la molécula, los cuales pueden oscilar entre tres y seis átomos de carbono. 
               p.mb-0 Las tres hexosas más importantes en la nutrición y el metabolismo son la glucosa, la fructosa y la galactosa. La glucosa es el azúcar simple más utilizado por las células para obtener energía; la fructosa, más conocida como el azúcar de las frutas por estar presente en estas, se forma en el organismo de los seres humano en la digestión, a partir de la hidrólisis de la sacarosa y, por último, la galactosa, la cual se halla en la leche y que por medio de la digestión es liberada para que el hígado la convierta en glucosa para luego pasar a la circulación. 
@@ -288,7 +288,7 @@
           .p-4.p-xl-5.h-100(style="background-color:#FCA651;border-radius:15px;")
             figure.text-center
               img(src="@/assets/curso/tema2/18.svg" style="max-width:90px;display:inline;")
-            h5.text-center.mt-3.ps-3.pe-4.m-auto.bg-white(style="max-width:fit-content;") Hidrosolubles
+            h5.text-center.mt-3.ps-3.pe-4.m-auto.pb-1.pt-1.bg-white(style="max-width:fit-content;") Hidrosolubles
             ul.lista-ul.mt-3.m-auto
               li 
                 i.fas.fa-walking(style="color:#12263F;")
@@ -324,7 +324,7 @@
           .p-4.p-xl-5.h-100(style="background-color:#30169A;border-radius:15px;")
             figure.text-center
               img(src="@/assets/curso/tema2/19.svg" style="max-width:90px;display:inline;")
-            h5.text-center.mt-3.ps-3.pe-4.m-auto.bg-white(style="max-width:fit-content;") Liposolubles 
+            h5.text-center.mt-3.ps-3.pe-4.m-auto.pb-1.pt-1.bg-white(style="max-width:fit-content;") Liposolubles 
             ul.lista-ul.mt-3.m-auto.text-white
               li 
                 i.fas.fa-walking(style="color:#fff;")
@@ -406,7 +406,7 @@
           .h-100.p-4.p-lg-4.cont_2_4(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4.text-center
               img(src="@/assets/curso/tema2/21.svg" style="max-width:90px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto.text-center(style="max-width:fit-content;background-color:#30169A;") Ingesta insuficiente
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1.text-center(style="max-width:fit-content;background-color:#30169A;") Ingesta insuficiente
             ul.lista-ul.mt-3
               li.d-flex
                 i.fas.fa-walking(style="color:#787CF0;")
@@ -424,7 +424,7 @@
           .h-100.p-4.p-lg-4.cont_2_4(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4.text-center
               img(src="@/assets/curso/tema2/22.svg" style="max-width:90px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto.text-center(style="max-width:fit-content;background-color:#30169A;") Necesidades metabólicas incrementadas
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1.text-center(style="max-width:fit-content;background-color:#30169A;") Necesidades metabólicas incrementadas
             ul.lista-ul.mt-3
               li.d-flex
                 i.fas.fa-walking(style="color:#787CF0;")
@@ -439,7 +439,7 @@
           .h-100.p-4.p-lg-4.cont_2_4(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4.text-center
               img(src="@/assets/curso/tema2/23.svg" style="max-width:90px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto.text-center(style="max-width:fit-content;background-color:#30169A;") Interacción con medicamentos
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1.text-center(style="max-width:fit-content;background-color:#30169A;") Interacción con medicamentos
             ul.lista-ul.mt-3
               li.d-flex
                 i.fas.fa-walking(style="color:#787CF0;")
@@ -500,7 +500,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema2/31.png")
       .col-lg-8(data-aos="fade-left")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Calcio, potasio y magnesio ")
             p.mb-0 Forman parte de los huesos y del tejido conjuntivo, son esenciales para la circulación de la sangre. 
           .row.col-xl-11.m-auto(titulo="Fósforo ")
@@ -512,7 +512,7 @@
     
     .row.mt-3
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Magnesio")
             p.mb-0 Es muy importante para la asimilación de la vitamina C y el calcio, también participa en la correcta transmisión de los impulsos nerviosos. De igual manera ayuda a la buena digestión de las grasas, y a fijar el calcio. 
           .row.col-xl-11.m-auto(titulo="Cloro")
@@ -530,7 +530,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema2/33.png")
       .col-lg-8(data-aos="fade-left")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Hierro")
             p.mb-0 Es importante para la producción de glóbulos rojos y hemoglobina, asimismo interviene en el metabolismo celular por medio de enzimas.
           .row.col-xl-11.m-auto(titulo="Flúor")

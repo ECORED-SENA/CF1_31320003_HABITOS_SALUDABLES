@@ -15,7 +15,7 @@
           figure.m-auto.col-7.col-md-7.col-lg-12
             img(src="@/assets/curso/tema1/1.png")
         .col-lg-9(data-aos="fade-left")
-          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row.col-xl-11.m-auto(titulo="Alimentos")
               p.mb-0 Son productos naturales o que han sufrido algún tipo de trasformación mediante un proceso de elaboración, haciéndolos aptos para el consumo humano. Los alimentos son indispensables para la vida, porque aportan los nutrientes y la energía necesaria para que una persona conserve una buena salud, la cual le permita realizar todas sus actividades cotidianas. 
             .row.col-xl-11.m-auto(titulo="Nutrientes")
@@ -83,7 +83,7 @@
           .h-100.p-4.p-lg-4.cont_1_2.text-center(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4
               img(src="@/assets/curso/tema1/10.svg" style="max-width:100px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto(style="max-width:fit-content;background-color:#30169A;") Su procedencia
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1(style="max-width:fit-content;background-color:#30169A;") Su procedencia
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-walking(style="color:#787CF0;")
@@ -95,7 +95,7 @@
           .h-100.p-4.p-lg-4.cont_1_2.text-center(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4
               img(src="@/assets/curso/tema1/11.svg" style="max-width:100px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto(style="max-width:fit-content;background-color:#30169A;") Función de sus nutrientes: 
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1(style="max-width:fit-content;background-color:#30169A;") Función de sus nutrientes: 
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-walking(style="color:#787CF0;")
@@ -113,7 +113,7 @@
           .h-100.p-4.p-lg-4.cont_1_2.text-center(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4
               img(src="@/assets/curso/tema1/12.svg" style="max-width:100px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto(style="max-width:fit-content;background-color:#30169A;") Papel en el organismo
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1(style="max-width:fit-content;background-color:#30169A;") Papel en el organismo
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-walking(style="color:#787CF0;")
@@ -128,7 +128,7 @@
           .h-100.p-4.p-lg-4.cont_1_2.text-center(style="background-color:#EBEBFD;border-radius:15px;")
             figure.mt-4
               img(src="@/assets/curso/tema1/13.svg" style="max-width:100px;display:inline;")
-            h5.mt-4.text-white.ps-3.pe-4.m-auto(style="max-width:fit-content;background-color:#30169A;") Su composición nutricional
+            h5.mt-4.text-white.ps-3.pe-4.m-auto.pb-1.pt-1(style="max-width:fit-content;background-color:#30169A;") Su composición nutricional
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-walking(style="color:#787CF0;")
