@@ -36,11 +36,11 @@ export default {
 .banner-principal .tarjeta
   background-position: inherit !important
 .titulo-principal__numero
-  background-color: #00FFDF !important
+  background-color: #95DBB3 !important
 .curso-main-container > .container
   overflow-x: clip !important
 .titulo-segundo:after
-  border-left-color: #00FFDF !important
+  border-left-color: #95DBB3 !important
 .banner-principal .tarjeta
   background-color: transparent !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
@@ -58,7 +58,7 @@ export default {
   top: 70% !important
   right: 25% !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero
-  background-color: #00FFDF !important
+  background-color: #95DBB3 !important
 .banner-principal__row .banner-principal__img img
   animation: float1 3s ease-in-out infinite alternate !important
   max-width: 450px
