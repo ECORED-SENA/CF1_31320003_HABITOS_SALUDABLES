@@ -1,7 +1,7 @@
 <template lang="pug">
   .cont_principal.mb-4(data-aos="fade-up")
     .row
-      .col-auto
+      .col-auto.pe-2
         figure
           img(src="@/assets/curso/decorativo.svg")
       .col.ps-0(style="place-self:center;")
@@ -31,7 +31,8 @@ export default {
   bottom: 10%
   top: 10%
   border-radius: 10% / 30px
-  right: -10%
+  left: 49px
 .cont_principal .titulo
   z-index: 2
+  padding-right: 10px
 </style>
