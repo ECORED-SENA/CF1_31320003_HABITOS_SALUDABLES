@@ -34,5 +34,5 @@ export default {
   left: 49px
 .cont_principal .titulo
   z-index: 2
-  padding-right: 10px
+  padding-right: 30px
 </style>

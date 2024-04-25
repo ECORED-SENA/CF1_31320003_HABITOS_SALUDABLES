@@ -19,7 +19,7 @@
               p Es importante tener en cuenta que el lugar donde se realizan los alimentos, como la forma en que se disfruta de estos, es casi tan significativo como lo que realmente se come. 
               p.mb-0 Cuando se habla de hábitos alimentarios, se hace referencia a la constancia adquirida durante las primeras etapas de la vida, los cuales siendo adecuados o no, perduran a veces durante toda la existencia de una persona. 
         p.mt-4 Los hábitos alimentarios están sujetos a la dieta que se  consume y a factores culturales, psicológicos, religiosos  y económicos, hallándose por ende una gran variedad  de dietas, las cuales varían dependiendo de aspectos  como el sexo, la edad, el país de origen y el estado fisiológico. 
-      .col-lg-3(data-aos="fade-left" data-aos-delay="800")
+      .col-lg-3(data-aos="fade-left" data-aos-delay="600")
         figure.m-auto.col-8.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/2.png")
     
@@ -98,7 +98,7 @@
             p.mb-0 Debe suministrarse en cantidades suficientes, porque aporta ligninas, polisacáridos y oligosacáridos. 
           .row.col-xl-11.m-auto(titulo="Equilibrio de nutrientes")
             p.mb-0 Todos los aportes calóricos deben estar equilibrados entre sí, según lo establecido por los expertos de la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO) y la Organización Mundial de la Salud (OMS). 
-      .col-lg-3(data-aos="fade-left" data-aos-delay="700")
+      .col-lg-3(data-aos="fade-left" data-aos-delay="600")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema4/9.svg")
     

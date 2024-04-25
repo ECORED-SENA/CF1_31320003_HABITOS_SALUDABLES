@@ -26,7 +26,7 @@
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema3/2.png")
       .col-lg-9(data-aos="fade-left")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Leche")
             .col-lg-7.mb-4.mb-lg-0
               ul.lista-ul.mb-0
@@ -168,7 +168,7 @@
               .col-lg-7
                 p Tienen porcentajes de agua de 80 a 95 % en su composición. Gozan de carbohidratos como el almidón, de azúcares, de celulosa y hemicelulosa, incluyendo además proteínas en baja proporción. 
                 p En las frutas, vitaminas como la B se halla en pocas cantidades, contrario a la vitamina A, la cual se encuentra en frutas amarillas como el melón y el durazno, mientras que la vitamina C está en mayor proporción en cítricos como la naranja, la mandarina y el limón. 
-        .col-lg-3(data-aos="fade-left" data-aos-delay="700")
+        .col-lg-3(data-aos="fade-left" data-aos-delay="600")
           figure.m-auto.col-7.col-md-7.col-lg-12
             img(src="@/assets/curso/tema3/16.svg")
       
