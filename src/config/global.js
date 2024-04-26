@@ -180,8 +180,7 @@ export default {
     },
     {
       referencia: 'Iñarritu, M. (s.f.). Elaboración de una dieta.',
-      link:
-        'http://www.edu.xunta.es/centros/ieschapela/system/files/ELABORACI%C3%93N%20DIETAS_1.pdf ',
+      link: '',
     },
     {
       referencia:
@@ -191,13 +190,12 @@ export default {
     {
       referencia:
         'Sección de programas de salud de la concejalía de sanidad del ayuntamiento de Valencia. (2009). 2 Guía de nutrición y alimentación saludable: la pirámide de la alimentación.',
-      link:
-        'http://www.valencia.es/ayuntamiento/Sanidad.nsf/0/004DD7F111F0F31DC12575E6003BF9B2/$FILE/piramide_IMPR_reduc.pdf?OpenElement&lang=1 ',
+      link: '',
     },
     {
       referencia:
         'Valero, T., Del Pozo, S., Ruiz, E., Ávila, J. y Varela, G. (s.f.). Guía nutricional de la carne.',
-      link: 'http://www.fedecarne.es/ficheros/swf/pdf/guiaNutricion.pdf ',
+      link: '',
     },
     {
       referencia:
