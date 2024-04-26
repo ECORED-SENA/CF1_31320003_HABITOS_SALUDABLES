@@ -243,7 +243,7 @@
               p.mb-0 Se puede decir que las grasas son un conjunto de sustancias que tienen poca solubilidad en el agua, pero sin embargo se pueden solubilizar en solventes como el éter o el cloroformo; además el medio por el cual se sintetizan es a través de los hidratos de carbono. 
         p.mt-4 Los lípidos están constituidos por colesterol libre, esterificado, triglicéridos, ácidos grasos libres y fosfolípidos, estos compuestos están presentes en las lipoproteínas plásticas y son los encargados de transportar los quilomicrones, las lipoproteínas de densidad baja (LDL) y las proteínas de alta densidad (HDL). 
       .col-lg-3(data-aos="fade-left" data-aos-delay="600")
-        figure.m-auto.col-8.col-md-7.col-lg-12
+        figure.m-auto.col-8.col-md-7.col-lg-12.d-none.d-lg-block
           img(src="@/assets/curso/tema2/13.png")
     
     .row.mt-5
@@ -351,7 +351,7 @@
           figure.m-auto.col-10.col-md-8.col-lg-12
             img(src="@/assets/curso/tema2/20.png")
       
-      p.mt-4(data-aos="fade-right") La siguiente tabla nos presenta una comparación entre esta comparación. 
+      p.mt-4(data-aos="fade-right") siguiente tabla nos presenta una comparción entre estas dos clasificaciones.
     
     .col-xl-9.m-auto.mt-4
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
