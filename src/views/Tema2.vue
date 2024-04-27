@@ -351,7 +351,7 @@
           figure.m-auto.col-10.col-md-8.col-lg-12
             img(src="@/assets/curso/tema2/20.png")
       
-      p.mt-4(data-aos="fade-right") siguiente tabla nos presenta una comparción entre estas dos clasificaciones.
+      p.mt-4(data-aos="fade-right") La siguiente tabla nos presenta una comparción entre estas dos clasificaciones.
     
     .col-xl-9.m-auto.mt-4
       .titulo-sexto.color-acento-contenido(data-aos="zoom-in-down")
