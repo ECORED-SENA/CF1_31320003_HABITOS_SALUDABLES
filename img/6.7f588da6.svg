@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="452" height="297.693" viewBox="0 0 452 297.693">
+  <g id="Grupo_1100523" data-name="Grupo 1100523" transform="translate(-201.195 -1090.85)">
+    <g id="Grupo_1100522" data-name="Grupo 1100522" transform="translate(-51.844 -6.305)">
+      <path id="Trazado_875092" data-name="Trazado 875092" d="M147.5,0A147.5,147.5,0,1,1,0,147.5,147.5,147.5,0,0,1,147.5,0Z" transform="translate(253.693 1392.154) rotate(-90)" fill="#1b5333"/>
+      <path id="Trazado_874530" data-name="Trazado 874530" d="M3795.668-9757v137.758L3683.71-9507.284s-73.912-68.372-31.017-161.864S3795.668-9757,3795.668-9757Z" transform="translate(10010.693 5034.154) rotate(-90)" fill="#32324a"/>
+      <path id="Trazado_874531" data-name="Trazado 874531" d="M3795.668-9617.961v-139.328s-26.392-.642-50.823,7.056-46.9,23.733-46.9,23.733Z" transform="translate(10010.693 5034.154) rotate(-90)" fill="#484a90"/>
+      <path id="Trazado_876096" data-name="Trazado 876096" d="M99.924-.443l6.457,156.389S76.6,157.7,50,149.088s-50-27.6-50-27.6Z" transform="matrix(0.105, -0.995, 0.995, 0.105, 382.467, 1338.211)" fill="#00883c"/>
+      <text id="_15_" data-name="15%" transform="translate(273.193 1283.654)" fill="#fff" font-size="26" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">15%</tspan></text>
+      <text id="_25_" data-name="25%" transform="translate(362.193 1339.654)" fill="#fff" font-size="26" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">25%</tspan></text>
+      <text id="_20_" data-name="20%" transform="translate(419.193 1193.654)" fill="#fff" font-size="26" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">20%</tspan></text>
+      <text id="_15_2" data-name="15%" transform="translate(468.193 1280.004)" fill="#fff" font-size="26" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">15%</tspan></text>
+      <path id="Trazado_876095" data-name="Trazado 876095" d="M7164.355-10460.727h140.762l35.1-139.614a187.715,187.715,0,0,0-66.145,2.051c-24.922,5.375-52.9,17.957-71.861,41.669C7156.52-10499.484,7164.355-10460.727,7164.355-10460.727Z" transform="translate(-6910.805 11700)" fill="#fca651"/>
+      <text id="_25_2" data-name="25%" transform="translate(313.193 1193.654)" fill="#12263f" font-size="26" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">25%</tspan></text>
+    </g>
+    <g id="Grupo_1100521" data-name="Grupo 1100521" transform="translate(-418 -95.15)">
+      <rect id="Rectángulo_402361" data-name="Rectángulo 402361" width="137" height="20" transform="translate(934.195 1260)" fill="#1b5333"/>
+      <rect id="Rectángulo_402362" data-name="Rectángulo 402362" width="137" height="20" transform="translate(934.195 1292)" fill="#11883c"/>
+      <rect id="Rectángulo_402363" data-name="Rectángulo 402363" width="137" height="20" transform="translate(934.195 1325)" fill="#32324a"/>
+      <rect id="Rectángulo_402364" data-name="Rectángulo 402364" width="137" height="20" transform="translate(934.195 1359)" fill="#484a90"/>
+      <rect id="Rectángulo_402365" data-name="Rectángulo 402365" width="137" height="20" transform="translate(934.195 1391)" fill="#fca651"/>
+      <text id="Desayuno_Media_mañana_Almuerzo_Merienda_Comida" data-name="Desayuno
+Media mañana
+Almuerzo
+Merienda
+Comida" transform="translate(945.195 1260)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="15">Desayuno</tspan><tspan x="0" y="48">Media mañana</tspan><tspan x="0" y="81">Almuerzo</tspan><tspan x="0" y="114">Merienda</tspan><tspan fill="#12263f"><tspan x="0" y="147">Comida</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
