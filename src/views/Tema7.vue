@@ -98,7 +98,7 @@
 
     .col-xl-10.m-auto.mt-4
       .row
-        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .col-12.mb-4(data-aos="fade-right")
           .titulo-sexto.color-acento-contenido
             h5 Tabla 2
             span Ecuaciones para estimar el gasto energético en reposo (GER) de sujetos sanos
@@ -139,11 +139,11 @@
                   td.text-center(style="border:1px #6063C0 solid;") > 60
                   td.text-center(style="border:1px #6063C0 solid;")  (13,5 x P) + 487 
                   td.text-center(style="border:1px #6063C0 solid;") (10,5 x P) + 596 
-        .col-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
+        .col-lg-6.mb-4.m-auto(data-aos="zoom-in")
           .p-4(style="background-color:#DAF2E4;")
             p.mb-0 P: peso corporal en kilogramos. 
             p.mb-0 kcal: kilocalorías. 
-        .col-lg-5(data-aos="fade-left")
+        .col-12(data-aos="fade-left")
           .titulo-sexto.color-acento-contenido
             h5 Tabla 3
             span Factores para estimar las necesidades energéticas diarias totales en diversos niveles de actividad general para mujeres y hombres entre 19 y 50 años
