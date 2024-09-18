@@ -23,7 +23,7 @@
           .crd_hover_txt
             .crd_hover_txt--img
               figure
-                img(src='@/assets/curso/tema5/4.png' alt="")
+                img(src='@/assets/curso/tema5/3.png' alt="")
             .crd_hover_txt--body(style="background-color:#30169A")
               h5.mb-3.text-white.text-center Grasas saturadas 
               p.mt-4.text-white.mb-0 Los ácidos grasos saturados deben aportar menos del 7 % de la energía total consumida. 
@@ -31,7 +31,7 @@
           .crd_hover_txt
             .crd_hover_txt--img
               figure
-                img(src='@/assets/curso/tema5/3.png' alt="")
+                img(src='@/assets/curso/tema5/4.png' alt="")
             .crd_hover_txt--body(style="background-color:#30169A")
               h5.mb-3.text-white.text-center Colesterol
               p.mt-4.text-white.mb-0 Consumir menos de 300 gramos al día. 
@@ -39,7 +39,7 @@
           .crd_hover_txt
             .crd_hover_txt--img
               figure
-                img(src='@/assets/curso/tema5/3.png' alt="")
+                img(src='@/assets/curso/tema5/5.png' alt="")
             .crd_hover_txt--body(style="background-color:#30169A")
               h5.mb-3.text-white.text-center Consumo de sal 
               p.mt-4.text-white.mb-0 Consumir menos de 6 gramos al día. 

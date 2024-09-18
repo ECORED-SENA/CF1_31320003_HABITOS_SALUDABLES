@@ -17,7 +17,7 @@
         .col-lg-9(data-aos="fade-left")
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row.col-xl-11.m-auto(titulo="Alimentos")
-              p.mb-0 Son productos naturales o que han sufrido algún tipo de trasformación mediante un proceso de elaboración, haciéndolos aptos para el consumo humano. Los alimentos son indispensables para la vida, porque aportan los nutrientes y la energía necesaria para que una persona conserve una buena salud, la cual le permita realizar todas sus actividades cotidianas. 
+              p.mb-0 Son productos naturales o que han sufrido algún tipo de transformación mediante un proceso de elaboración, haciéndolos aptos para el consumo humano. Los alimentos son indispensables para la vida, porque aportan los nutrientes y la energía necesaria para que una persona conserve una buena salud, la cual le permita realizar todas sus actividades cotidianas. 
             .row.col-xl-11.m-auto(titulo="Nutrientes")
               p.mb-0 Son sustancias presentes en los alimentos como por ejemplo proteínas, vitaminas, carbohidratos, lípidos y minerales, las cuales cumplen diversas funciones en el organismo de un ser humano. Se debe tener en cuenta que deben suministrarse en las cantidades necesarias. 
             .row.col-xl-11.m-auto(titulo="Alimentación")
@@ -43,7 +43,7 @@
                   figure
                     img(src="@/assets/curso/tema1/3.svg")
                 .col(style="place-self:center;")
-                  p.mb-0 Que en la trasformación de materias primas en productos se empleen procedimientos que garanticen la conservación del valor nutritivo de los alimentos. 
+                  p.mb-0 Que en la transformación de materias primas en productos se empleen procedimientos que garanticen la conservación del valor nutritivo de los alimentos. 
             .bg-white.mb-3.p-3(style="border-radius:15px;box-shadow:0px 0px 10px rgba(0,0,0,.25);")
               .row
                 .col-auto(style="place-self:center;")

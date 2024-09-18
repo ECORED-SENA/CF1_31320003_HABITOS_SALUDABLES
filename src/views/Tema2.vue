@@ -233,7 +233,7 @@
   
     .row
       .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
-        p Son sustancias que se encuentran en las células de animales o vegetales. La función más importante para el organismo de los seres humanos es dar energía al metabolismo y trasportar vitaminas liposolubles. 
+        p Son sustancias que se encuentran en las células de animales o vegetales. La función más importante para el organismo de los seres humanos es dar energía al metabolismo y transportar vitaminas liposolubles. 
         .row
           .col-lg-5.mb-4.mb-lg-0.pe-lg-0
             figure.col-10.m-auto.col-md-9.col-lg-12
@@ -506,7 +506,7 @@
           .row.col-xl-11.m-auto(titulo="Fósforo ")
             p.mb-0 Este elemento en asocio con ciertos lípidos, forma los fosfolípidos, los cuales son muy importantes para la membrana celular y el tejido nervioso, también constituyen la estructura de los huesos. 
           .row.col-xl-11.m-auto(titulo="Sodio")
-            p.mb-0 Es responsable de la trasmisión de impulsos nerviosos. Las necesidades de este compuesto aumentan cuando la persona suda mucho, toma diuréticos, o cuando se tienen diarreas o vómitos. 
+            p.mb-0 Es responsable de la transmisión de impulsos nerviosos. Las necesidades de este compuesto aumentan cuando la persona suda mucho, toma diuréticos, o cuando se tienen diarreas o vómitos. 
           .row.col-xl-11.m-auto(titulo="Potasio")
             p.mb-0 Participa en la contracción del músculo cardíaco y además actúa en la regulación del balance de agua en el organismo. 
     
